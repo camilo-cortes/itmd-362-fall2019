@@ -12,15 +12,23 @@ label {
   text-align: center;
 }
 
-@media screen and (min-width: 480px) {
+@media screen and (max-width: 600px) {
   label {
     display: inline-block;
     color: white;
-    background-color: red;
     margin-right: 5px;
     font-size: 1.3em;
   }
   
+  body {
+    background-color: lightpink;
+  }
+
+  html {
+    background: lightblue;
+    align-self: center;
+  }
+
   div {
     display: inline;
     
