@@ -1,30 +1,42 @@
 html {
-   line-height: 1.2em;
-   font-family: tahoma;
-   font-size: 15px;
-   text-align: center;
+ line-height: 1.2em;
+ font-family: tahoma;
+ font-size: 15px;
+ text-align: center;
+ align-content: center;
 }
 
-
+h1 {
+  font-size: 40px;
+}
 
 label {
   display: block;
-  background-color: #66ccff;
+  background-color: lightblue;
   text-align: center;
 }
 
-@media screen and (max-width: 500px) {
+.submit-button {
+  background-color: #0074D9;
+  width: 100px;
+  height: 30px;
+  display: inline-block;
+  border-radius: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
   label {
     display: inline-block;
     color: black;
     margin-right: 5px;
     font-size: 1.3em;
     background-color: transparent;
-    padding: 10px;
+    padding: 20px;
   }
 
   h1 {
-    font-size: 2.4em;
+    font-size: 3.4em;
     padding-top: 30%; 
   }
   
@@ -47,8 +59,10 @@ label {
   .submit-button {
     background-color: #0074D9;
     width: 100px;
-    height: 50px;
+    height: 30px;
     display: inline-block;
     border-radius: 25px;
+
   }
-}
+
+
