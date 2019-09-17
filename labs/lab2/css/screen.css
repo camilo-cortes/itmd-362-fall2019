@@ -2,6 +2,7 @@ html {
    line-height: 1.2em;
    font-family: tahoma;
    font-size: 15px;
+   text-align: center;
 }
 
 
@@ -12,25 +13,42 @@ label {
   text-align: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
   label {
     display: inline-block;
-    color: white;
+    color: black;
     margin-right: 5px;
     font-size: 1.3em;
+    background-color: transparent;
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 2.4em;
+    padding-top: 30%; 
   }
   
   body {
+    padding-top: 10px;
+    height: 187px;
     background-color: lightpink;
   }
 
   html {
     background: lightblue;
     align-self: center;
+    align-content: center;
   }
 
   div {
     display: inline;
-    
+  }
+
+  .submit-button {
+    background-color: #0074D9;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+    border-radius: 25px;
   }
 }
